@@ -53,7 +53,7 @@ export default function Board() {
 
                 if (spChange === 'status') {
                     let sop = statusFlow.indexOf(pick.status);
-                    let nextSop = Math.min(pos + 1, statusFlow.length - 1);
+                    let nextSop = Math.min(sop + 1, statusFlow.length - 1);
                     nextStatus = statusFlow[nextSop];
                 } else {
                     let sop = priorities.indexOf(pick.priority);
