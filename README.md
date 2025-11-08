@@ -96,4 +96,4 @@ src/
 
 ## Notes
 - No TypeScript used
-- Runs with `npm install` + `npm run de
+- Runs with `npm install` + `npm run dev`
